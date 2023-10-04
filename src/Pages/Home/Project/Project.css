@@ -1,0 +1,18 @@
+.project-title{
+    background: -webkit-linear-gradient(#fff, #ff3939);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 44px;
+}
+/* 
+.project-title::after {
+    position: absolute;
+    content: "";
+    width: 200px;
+    height: 5px;
+    bottom: -20px;
+    background-color: #34d399;
+    left: 50%;
+    right: 50%;
+    margin-left: -98px;
+} */

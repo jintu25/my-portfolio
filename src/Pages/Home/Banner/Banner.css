@@ -1,0 +1,115 @@
+.myName{
+    background: -webkit-linear-gradient(#fff, #0095e7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hireMe{
+    background: -webkit-linear-gradient(#ffffff, #1a4ffcd6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hireMe-arrowIcon{
+    color: #3765ffd6;
+    font-weight: bold;
+}
+.banner-image {
+  animation: updown 3s linear infinite;
+}
+@keyframes updown {
+    0% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+:root {
+    --bg: #dcdde1;     
+    --color-icon: #535c68;  
+    --social-icon1: #e4405f;
+    --social-icon2: #3b5999;
+    --social-icon3: #e4405f;
+    --social-icon4: #cd201f;
+    --social-icon5: #0077B5;  
+  }
+  
+  /* * {
+    margin: 0;
+    padding: 0;  
+  } */
+  
+  .social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: start;  
+  }
+  
+  .icon-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .icon-item {
+    list-style: none
+  }
+  
+  .icon-link {  
+    display: inline-flex;
+    font-size: 2rem;  
+    text-decoration: none;  
+    color: #6b7a8f;
+    width: 4rem;
+    height: 4rem;   
+    transition: .5s linear;
+    position: relative;
+    z-index: 1;
+    margin: auto
+  }
+  
+  .icon-link:hover {
+    color: #fff;
+  }
+  
+  .icon-link i {
+    margin: auto;    
+  }
+  
+  .icon-link::before {  
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 4rem;
+    height: 4rem;
+    background: #000;
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(0);
+    transition: 0.3s cubic-bezier(.95, .32, .37, 1.21);
+  }
+    
+  .icon-link:hover::before {  
+    transform: scale(1);
+  }
+  
+  .icon-item:nth-child(1) a:hover:before { 
+    background: var(--social-icon1); 
+  }
+  
+  .icon-item:nth-child(2) a:hover:before { 
+    background: var(--social-icon2); 
+  }
+  
+  .icon-item:nth-child(3) a:hover:before { 
+    background: var(--social-icon5); 
+  }
+  
+  .icon-item:nth-child(4) a:hover:before { 
+    background: var(--social-icon4); 
+  }

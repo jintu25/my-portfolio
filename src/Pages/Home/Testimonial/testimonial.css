@@ -1,0 +1,8 @@
+.teamMember {
+    background: linear-gradient(0deg, #140f25, rgb(64 41 192 / 95%) 100%);
+}
+.team-member-title{
+    background: -webkit-linear-gradient(#fff, #ff3939);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
